@@ -8,6 +8,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 li {
@@ -70,7 +71,34 @@ li:last-child {
 
 .Text-P1 p{
 	position:relative;
-	top: 50px;
+	top: 30px;
 	text-align: center;
 	font-size: 160%;
+}
+
+.FM {
+	position: relative;
+	top: 50px;
+	width: 200px;
+	height: 200px;
+}
+.JD {
+    position: relative;
+    top: 50px;
+    Left: 948px;
+    width: 200px;
+    height: 200px;
+}
+.BM {
+	position: relative;
+    top: 411px;
+    left: -408px;
+    height: 200px;
+}
+.RT {
+	position: relative;
+    top: 411px;
+    Left: 543px;
+    width: 200px;
+    height: 200px;
 }
