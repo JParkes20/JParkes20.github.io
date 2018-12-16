@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+li {
+  width:24.9%;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0000b3;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.Page1 {
+	background-color: #049CC3;
+}
+
+.Page2 {
+	background-color: #009221;
+}
+
+.Page3 {
+	background-color: #FCFF02;
+}
+
+.Page4 {
+	background-color: red;
+}
