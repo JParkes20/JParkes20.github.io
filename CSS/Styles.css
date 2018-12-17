@@ -76,38 +76,12 @@ li:last-child {
 	font-size: 160%;
 }
 
-
-/* .FM { */
-	/* position: relative; */
-	/* top: 50px; */
-	/* max-width: 200px; */
-	/* max-height: 200px; */
-/* } */
-/* .JD { */
-    /* position: relative; */
-    /* top: 50px; */
-    /* max-width: 200px; */
-    /* max-height: 200px; */
-/* } */
-/* .BM { */
-	/* position: relative; */
-    /* top: 411px; */
-    /* max-height: 200px; */
-	/* max-width: 200px; */
-/* } */
-/* .RT { */
-	/* position: relative; */
-    /* top: 411px; */
-    /* max-width: 200px; */
-    /* max-height: 200px; */
-/* } */
-.p2-body {
+table{
+	width: 100%;
 	text-align: center;
 	font-size: 1.25em;
 }
-table{
-	width: 100%;
-}
+
 .pics{
 	position: relative;
 	top:50px
