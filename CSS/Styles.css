@@ -83,6 +83,9 @@ table{
 	position: relative;
 	top:50px
 }
-th {
+th{
+	font-size: 1.3em;
+}
+pre{
 	font-size: 1.3em;
 }
