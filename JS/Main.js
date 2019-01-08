@@ -58,7 +58,7 @@ function addToCartClicked(event) {
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
 }
-
+ 
 function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement("div")
     cartRow.classList.add("cart-row")
@@ -101,3 +101,17 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName("cart-total-price")[0].innerText = "£" + total
 }
+   
+   const fill = document.getElementsByName(".shop-item")
+   const cartsection = document.getElementsByClassName(".shop-section")
+   
+   fill.addEventListener("dragstart", dragStart())
+   fill.addEventListener("dragend", dragEnd())
+   
+   function dragStart() {
+	   console.log("start")
+   }
+   
+   function dragEnd() {
+	   console.log("end")
+   }

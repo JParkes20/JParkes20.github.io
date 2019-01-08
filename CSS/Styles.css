@@ -137,6 +137,8 @@ pre{
 
 .shop-item {
 	margin: 30px;
+	cursor: pointer;
+	position: relative;
 }
 
 .shop-item-title {
@@ -268,4 +270,17 @@ pre{
 	display: block;
 	margin: 40px auto 80px auto ;
 	font-size: 1.75em;
+}
+
+.cart-section {
+
+}
+
+.hovered {
+	background: darkred;
+	border-style: dashed;
+}
+
+.invisible {
+
 }
