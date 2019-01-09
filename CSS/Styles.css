@@ -13,7 +13,7 @@
 }
 
 .nav li {
-  width:24.8%;
+  width:19.9%;
   float: left;
   border-right: 1px solid #bbb;
   display: inline;
@@ -169,6 +169,7 @@ pre{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	position: relative;
 }
 
 .cart-header {
@@ -283,4 +284,11 @@ pre{
 
 .invisible {
 
+}
+
+.Jazz-T-Shirt {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }

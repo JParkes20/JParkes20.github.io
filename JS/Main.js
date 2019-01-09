@@ -102,11 +102,22 @@ function updateCartTotal() {
     document.getElementsByClassName("cart-total-price")[0].innerText = "£" + total
 }
 
-$(document).ready(function () {
-	
-  $(".shop-item").draggable({helper:"clone()"})
-  
-})
-	
-	
-	
+function changeBlack(){
+	var image = document.getElementById("tshirt")
+	image.src = "Assets/Jazz T-Shirt Black.jpg"
+}
+
+function changeBlue(){
+	var image = document.getElementById("tshirt")
+	image.src = "Assets/Jazz T-Shirt Blue.jpg"
+}
+
+function changeOrange(){
+	var image = document.getElementById("tshirt")
+	image.src = "Assets/Jazz T-Shirt Orange.jpg"
+}
+
+function changePurple(){
+	var image = document.getElementById("tshirt")
+	image.src = "Assets/Jazz T-Shirt Purple.jpg"
+}
