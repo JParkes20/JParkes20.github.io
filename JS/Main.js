@@ -114,7 +114,7 @@ function changeBlue(){
 
 function changeOrange(){
 	var image = document.getElementById("tshirt")
-	image.src = "Assets/Jazz T-Shirt Orange.jpg"
+	image.src = "Assets/Jazz T-Shirt orange.jpg"
 }
 
 function changePurple(){
