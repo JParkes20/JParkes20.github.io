@@ -121,3 +121,10 @@ function changePurple(){
 	var image = document.getElementById("tshirt")
 	image.src = "Assets/Jazz T-Shirt Purple.jpg"
 }
+
+var text_box=document.getElementById("text_holder")
+
+function update_text(){
+	var user_text=document.getElementById("user_text").value;
+	text_box.innerHTML=user_text;
+}

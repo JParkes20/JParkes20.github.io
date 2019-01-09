@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Queen</title>
 <link rel="Stylesheet"href="CSS/Styles.css">
-<script src="JS/Main.js"></script>
 </head>
 <body>
 <div class="nav main-nav">
@@ -19,7 +18,13 @@
 <br></br>
 <br></br>
 
-<img src="Assets/Jazz T-Shirt Black.jpg" alt="Jazz T-Shirt" class="Jazz-T-Shirt" id="tshirt">
+<div id="user_text_header" >Custom Text</div>
+	<div id="user_input_div">
+		<input id="user_text" type="text">
+	</div>
+	<button id="user_text_button" onclick="update_text()" type="button">Click to submit</button>
+
+	<img src="Assets/Jazz T-Shirt Black.jpg" alt="Jazz T-Shirt" class="Jazz-T-Shirt" id="tshirt"<canvas id="ts_maker"></canvas><p id="text_holder" class="font">E</p>
 <br></br>
 <img src="Assets/Black.png" class="Black" alt="Black" onclick="changeBlack();">
 <img src="Assets/Orange.png" class="Orange" alt="Orange" onclick="changeOrange();">
@@ -48,4 +53,5 @@
 	</div>
 </footer>
 </body>
+<script src="JS/Main.js"></script>
 </html>

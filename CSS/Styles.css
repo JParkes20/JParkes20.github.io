@@ -292,3 +292,23 @@ pre{
 	margin-right: auto;
 	width: 50%;
 }
+
+
+
+#ts_maker{
+	background-color:white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:350px;
+	height:350px;
+}
+#text_holder{
+	position:absolute;
+	top:42%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	color:black;
+}
