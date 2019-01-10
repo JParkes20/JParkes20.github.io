@@ -12,11 +12,39 @@
 
 }
 
+@media (max-width: 550px){
+	
+	.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 4px;
+	overflow: hidden;
+	background-color: #0000e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+		
+	}
+	
+}
+
 .nav li {
   width:19.8%;
   float: left;
   border-right: 1px solid #bbb;
   display: inline;
+}
+
+@media (max-width: 550px) {
+	.nav li{
+	width:19.7%;
+	float: left;
+	border-right: 1px solid #bbb;
+	display: inline;
+	font-size: 1.5rem;
+	}
 }
 
 .nav li a {
